@@ -1,0 +1,546 @@
+﻿body {
+    background-color:black;
+    margin:0;
+    padding:0;
+}
+
+#page_header {
+    background-image: url('images/background_header.png');
+    height: 960px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.inner_wraper{
+    width: 1270px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#LogoWrapper{
+    text-align: center;
+}
+
+#LogoWrapper img{
+    margin-top:155px;
+    margin-bottom:70px;
+}
+ .menu li{
+
+    display:inline-block;
+    text-decoration:none;
+
+}
+.main-nav{
+     padding-bottom:22px;
+     padding-top:22px;
+     border-bottom:2px solid #ffffff;
+     border-top:2px solid #ffffff;
+     text-align:center;
+     padding-left:10px;
+     padding-right:10px;
+ }
+.main-nav .menu-links{
+padding-right:125px;
+ }
+ .main-nav li a{
+
+     font-size:18px;
+     color:#ffffff;
+     text-decoration:none;
+     text-transform:uppercase;
+    
+ }
+
+ .social-navigation{
+     
+     text-align:center;
+     margin-top:55px;
+ }
+  .social-navigation #social-links li{
+
+      padding-right:35px;
+      color:#ffffff;
+  }
+    .social-navigation #social-links li a{
+
+       color:#ffffff;
+          
+  }
+
+   .social-navigation #social-links .fa-fw {
+    width: 1.18571429em;
+    text-align: center;
+    font-size: 23px;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 27px;
+}
+
+    .social-navigation #social-links .fa-facebook:hover {
+
+        background-color:#3b5998;
+        
+    }
+
+    .social-navigation #social-links .fa-twitter:hover {
+
+        background-color:#1da1f2;
+    }
+    .social-navigation #social-links .fa-instagram:hover {
+
+        background-color:rgba(255, 255, 255, 0.3);
+        color:aliceblue;
+    }
+
+    #description_paragraph{
+        background-color:white;
+        margin-top:-170px;
+    }
+
+   #description_paragraph .text_content{
+        padding-left:310px;
+        padding-right:310px;
+        text-align:center;
+        padding-top:30px;
+        padding-bottom:30px;
+    }
+
+    #description_paragraph .text_content h1{
+        font-size:40px;
+        color:black;
+        text-transform:uppercase;
+    }
+
+.image-grid .image1 {
+    background-image: url('images/book_table.png');
+    width: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+
+.image-grid .image2 {
+    background-image: url('images/menus.png');
+    width: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+
+.image-grid .image3 {
+    background-image: url('images/christmas.png');
+    width: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+.image-grid .image4 {
+    background-image: url('images/contact.png');
+    width: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+
+
+.image-grid {
+    font-size: 0;
+    flex-flow: row wrap;
+    display: flex;
+    padding: .1vh;
+}
+    .image-grid li {
+        flex: auto;
+        width: 25%;
+        margin: 0;
+    }
+   .image-grid li :hover {
+        opacity: 0.8;
+      }
+
+     .image-grid li   img {
+        width: 100%; 
+        height: auto;
+      }
+
+
+.overlay_hidden{
+    background: rgba(0,0,0,.7);
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    padding: 50px 10px;
+    color: #fff;
+    opacity: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.overlay_hidden h3{
+    color: #eee;
+    z-index: 99;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.overlay_hidden img{
+        max-width: 80px;
+        margin-bottom:20px;
+}
+.overlay_hidden a{
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    text-transform:lowercase;
+    margin-top:40px;
+    text-decoration:none;
+}
+
+
+#footer_section {
+    margin-top: -200px;
+    padding-top:230px;
+    background-image: url('images/background-footer.png');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+#footer_section .social_row{
+    height:350px;
+    border-bottom:1px solid white;
+    margin-bottom:-10px;
+}
+
+#footer_section .social_coloumn {
+    width:30%;
+    position: relative;
+    float: left;
+    color:white;
+    margin-left: 5%;
+    
+}
+
+ #margin_left_zero{
+    margin-left: 0!important;
+}
+
+.social_coloumn h2,h4,a {
+    text-align:center;
+    text-transform:uppercase;
+
+}
+.social_coloumn h2{
+
+    border-bottom: 1px solid;
+    padding-bottom:5px;
+}
+.social_coloumn h4{
+ 
+    margin-bottom:30px;
+}
+ .social_coloumn .link_button a {
+    padding:10px 50px 10px 50px;
+    border:2px solid white;
+    border-radius:5px;
+    color:white;
+    text-decoration:none;
+    margin-bottom:50px;
+    font-weight:bold;
+}
+  .social_coloumn .link_button{
+
+       margin-bottom:30px;
+  }
+
+  .social_coloumn .link_button a:hover {
+    background-color: rgba(36, 168, 44, 0.2);
+    cursor:pointer;
+
+}
+
+  .social_coloumn .link_button{
+
+      text-align:center;
+  }
+
+    .social_coloumn p{
+
+      padding-left:20%;
+      padding-right:20%;
+      font-style:italic;
+  }
+     .instagram_row{
+        display:inline-block;
+    }
+
+   #footer_section .instagram_footer {
+
+       width:45%;
+       float:left
+       
+   }
+   #footer_section #secondinstagram_footer{
+
+       float:right;
+            
+   }
+
+    #footer_section .instagram_footer img{
+
+       max-width:100%;
+       float:left;
+       position:relative;
+   }
+    #footer_menu_content{
+        border-top:1px solid white;
+        padding-top:20px;
+        text-align:center;
+        color:white;
+    }
+
+    #footer_menu_content li{
+        padding-right:12px;
+        padding-left:12px;
+    }
+
+    #footer_menu_content li a{
+        color:white;
+        text-transform:initial;
+    }
+
+    .footer-logo{
+        text-align:center;
+        margin-top:40px;
+
+    }
+
+        .form-line{
+    padding: 5px 10px;
+    border: solid 1px;
+    border-radius: 5px;
+    width: 70%;
+    margin-left:15%;
+    margin-bottom:5px;
+}
+.form-line input:active{
+    border:none !important;
+}
+        .form-line label{
+   font-size:12px;
+   font-style:italic;
+}
+    .form-line input, select,option{
+    background-color: transparent;
+    border: none;
+}
+   .form-line .select-value  {
+       background-color: black;
+   }
+
+   .submit_button{
+       text-align:center;
+   }
+
+
+   .submit_button input{
+    padding: 7px 50px 7px 50px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 50px;
+    font-weight: bold;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+   .mobile-nav-container{
+       display:none;
+   }
+   @media  (max-width: 1300px ) {
+
+    .inner_wraper {
+        max-width:90%;
+    }
+
+    #LogoWrapper img {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+    .main-nav .menu-links {
+    padding-right: 5%;
+}
+    #description_paragraph .text_content {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+    .overlay_hidden {
+    padding: 15px 10px;
+   
+}
+    .overlay_hidden img {
+    max-width: 30%;
+   margin-bottom: 10px;
+}
+   .overlay_hidden h3 {
+    font-size: 15px;
+}
+   #footer_section {
+
+    height: 640px;
+}
+    #footer_section .social_row {
+        height: 480px;
+    }
+
+    #footer_section #secondinstagram_footer {
+     float: left;
+}
+    #footer_section .instagram_footer {
+        width: 60%;
+        float: left;
+        margin-top:15px;
+        margin-left:20%;
+    }
+
+   .form-line input {
+    width: 50%;
+}
+   .form-line select {
+    width: 30%;
+}
+   .form-line {
+    width: 80%;
+    margin-left: 5%;
+}
+}
+
+@media  (max-width: 769px) {
+    #page_header {
+    height: 800px;
+}
+    #description_paragraph .text_content {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+    .main-nav{
+        display:none;
+    }
+    #MainMenu ul{
+       list-style:none;
+    }
+   #MainMenu .mobile-nav-container{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.58);
+    width: 100%;
+    z-index: 999;
+   }
+   
+   #MainMenu .mobile-nav{
+    padding-bottom: 22px;
+    border-bottom: 0px solid #ffffff;
+    border-top: 0px solid #ffffff;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    top: 36px;
+    left: 0;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.58);
+    z-index: 999;
+}
+    #MainMenu .mobile-nav a{
+    color:white;
+    text-decoration:none;
+    margin-bottom:10px;
+    font-weight:bold;
+}
+  #MainMenu  .mobile-button {
+    display: block!important;
+    float: right;
+    margin: 10px 30px;
+    padding: 2px 10px;
+    border: solid 1px;
+    border-radius: 5px;
+    color: white;
+    z-index: 999;
+    cursor:pointer;
+}
+
+  .image-grid .image1 {
+    width: 50%!important;
+ 
+}
+    .image-grid .image2 {
+    width: 50%!important;
+ 
+}
+    .social_row .social_coloumn {
+        width: 100%!important;
+        margin-left:0!important;
+        float:none;
+    }
+
+        #footer_section #secondinstagram_footer {
+     float: right;
+}
+    #footer_section .instagram_footer {
+        width: 45%;
+        float: left;
+        margin-top:15px;
+        margin-left:0%;
+    }
+    #footer_section .social_row {
+    height: 1030px;
+}
+    #footer_section {
+        margin-top: 0;
+        padding-top: 30px;
+    }
+    #footer_menu_content li {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+    #footer_section .social_row {
+     
+    border-bottom: none;
+     
+}
+ #footer_section {
+    height: 1300px;
+}
+}
+
+

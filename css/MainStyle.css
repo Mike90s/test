@@ -56,6 +56,15 @@ padding-right:125px;
     
  }
 
+  .main-nav li a:hover{
+
+     font-size:18px;
+     color:#dddddd;
+     text-decoration:none;
+     text-transform:uppercase;
+    
+ }
+
  .social-navigation{
      
      text-align:center;
@@ -289,7 +298,10 @@ padding-right:125px;
 
       text-align:center;
   }
-
+  .thank-you-hide{
+      display:none;
+      text-align:center;
+  }
     .social_coloumn p{
 
       padding-left:20%;
@@ -347,16 +359,15 @@ padding-right:125px;
         margin-top:40px;
 
     }
-
-        .form-line{
+    .form-line{
     padding: 5px 10px;
     border: solid 1px;
-    border-radius: 5px;
+    border-radius: 2px;
     width: 70%;
     margin-left:15%;
     margin-bottom:5px;
 }
-.form-line input:active{
+    .form-line input:active{
     border:none !important;
 }
         .form-line label{
@@ -374,6 +385,9 @@ padding-right:125px;
    .submit_button{
        text-align:center;
    }
+   .submit_button input:hover{
+    background-color: rgba(36, 168, 44, 0.2)!important;
+    cursor:pointer;   }
 
 
    .submit_button input{
@@ -454,6 +468,9 @@ padding-right:125px;
 }
 
 @media  (max-width: 769px) {
+    #description_paragraph .text_content h1 {
+        font-size: 30px!important;
+    }
      .inner_wraper {
         max-width:90%;
     }
@@ -486,8 +503,8 @@ padding-right:125px;
     border-bottom: 0px solid #ffffff;
     border-top: 0px solid #ffffff;
     text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
     position: fixed;
     top: 36px;
     left: 0;
@@ -495,12 +512,16 @@ padding-right:125px;
     background-color:rgba(0, 0, 0, 0.58);
     z-index: 999;
 }
+   #MainMenu .mobile-nav li:hover{
+    background:rgba(58, 58, 58, 0.57);
+}
     #MainMenu .mobile-nav a{
     color:white;
     text-decoration:none;
     margin-bottom:10px;
     font-weight:bold;
 }
+
   #MainMenu  .mobile-button {
     display: block!important;
     float: right;
@@ -512,7 +533,19 @@ padding-right:125px;
     z-index: 999;
     cursor:pointer;
 }
-
+      #MainMenu  .mobile-button:hover{
+            color: black!important;
+            background-color: white!important;
+            border: solid 1px;
+    }
+     #MainMenu  .mobile-button:active{
+            color: black!important;
+            background-color: white!important;
+    }
+     #MainMenu  .mobile-button:focus{
+            color: black!important;
+            background-color: white!important;
+    }
   .form-space{
         font-style:normal!important;
         padding-left:22px;
@@ -536,6 +569,10 @@ padding-right:125px;
         float:none;
     }
 
+     .social_row .social_coloumn a {
+        color:white;
+    }
+
         #footer_section #secondinstagram_footer {
      float: right;
 }
@@ -546,10 +583,10 @@ padding-right:125px;
         margin-left:0%;
     }
      #footer_section {
-    height: 1300px;
+    height: 1400px;
 }
     #footer_section .social_row {
-    height: 1150px;
+    height: 1150px!important;
 }
     #footer_section {
         margin-top: 0;
@@ -567,5 +604,119 @@ padding-right:125px;
 }
 
 }
+@media (max-width: 940px){
+    #footer_section {
+    height: 681px;
+}
+}
 
 
+@media  (max-width: 1020px){
+
+    .form-line select {
+    width: 20%;
+}
+    .form-space-last {
+    font-style: normal!important;
+    padding-left: 2px; 
+}
+    .form-space {
+    font-style: normal!important;
+    padding-left: 20px;
+}
+}
+
+@media (max-width: 950px) {
+
+    #footer_section .social_row {
+    height: 540px;
+}
+}
+
+
+
+.user, .tweet, .timePosted {
+  float:left;
+}
+
+.user {
+  width:25%;
+}
+
+.tweet {
+  width:50%;
+}
+
+.tweet a,span{
+color:white; 
+}
+
+#tweetMessage ul{
+    list-style:none;
+}
+
+.timePosted {
+  width:15%;
+  display:none;
+}
+
+.user {
+  clear:left;
+    display:none;
+
+}
+
+.user a {
+ width: 100px;
+}
+
+.user span span {
+  width:100px;
+  display:block;
+  margin-top:10px;
+    display:none;
+
+}
+
+.user img, .user a > span {
+  float:left;
+}
+
+.interact {
+  float:left;
+  width:10%;
+  margin-top:-7px;
+}
+
+.interact a {
+  margin-left:5px;
+  float:left;
+    display:none;
+
+}
+
+.user a > span {
+  margin-left:10px;
+}
+
+.media img {
+  max-width:250px;
+  max-height:250px;
+}
+
+#linkage {
+  position:fixed;
+  top:0px;
+  right:0px;
+  background-color:#3d3d3d;
+  color:#ffffff;
+  text-decoration:none;
+  padding:5px;
+  width:10%;
+  font-family:arial;
+
+}
+
+.tco-hidden{
+  display: none;
+}

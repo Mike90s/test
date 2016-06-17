@@ -17,5 +17,26 @@ $(document).ready(function () {
         }
    
 )
+    $(".submit_button").click(function () {
+       
+        
+        $(".thank-you-hide").show(); 
+        $(".form-subscription").hide();
+        
 
+    }
+
+)
+    
+
+    var config1 = {
+        "id": '345170787868762112',
+        "domId": 'tweetMessage',
+        "maxTweets": 1,
+        "enableLinks": true
+    };
+    twitterFetcher.fetch(config1);
+
+ 
+ 
 });

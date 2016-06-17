@@ -8,7 +8,7 @@
     <link href="css/bootstrap.css" rel="stylesheet" />
     <link href="css/MainStyle.css" rel="stylesheet" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-
+   
 </head>
 <body>
     <div id="MainContainer">
@@ -51,7 +51,7 @@
                 <div class="social-navigation">
                     <ul id="social-links" class="menu">
                         <li><a href="#"><i class="fa fa-facebook fa-fw"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter fa-fw"></i></a></li>
+                        <li><a href="https://twitter.com/intent/follow?screen_name=@Mike_test_dev"><i class="fa fa-twitter fa-fw"></i></a></li>
                         <li><a href="#"><i class="fa fa-instagram fa-fw"></i></a></li>
                     </ul>
                 </div>
@@ -126,14 +126,14 @@
                                 <img src="images/carousel_image.png" alt="image" />
                             </div>
                             <div class="item">
-                                <img src="images/carousel_image.png" alt="image"/>
+                                <img src="images/image-carousel-2.png" alt="image" />
                             </div>
                             <div class="item">
                                 <img src="images/carousel_image.png" alt="image"/>
                             </div>
                             <div class="item">
-                                <img src="images/carousel_image.png" alt="image"/>
-                            </div>
+                                <img src="images/image-carousel-3.png" />
+                             </div>
                             <div class="item">
                                 <img src="images/carousel_image.png" alt="image"/>
                             </div>
@@ -158,13 +158,16 @@
                         <h2>Twitter</h2>
                         <h4>@PBT_propeller</h4>
                         <div class="link_button">
-                            <a>Follow</a>
+                            <a href="https://twitter.com/intent/follow?screen_name=@Mike_test_dev"><img src="" />Follow</a>
                         </div>
-                        <p>
+                        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <!--<a id="linkage" href="https://twitter.com/Mike_test_dev" target="_blank"></a>-->                  
+                        <div id="tweetMessage"></div>
+                        <!--<p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
                             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                             consequat. an hour ago
-                        </p>
+                        </p>-->
                     </div>
                     <div class="social_coloumn">
                         <h2>Instagram</h2>
@@ -172,6 +175,7 @@
                         <div class="link_button">
                             <a>Follow</a>
                         </div>
+
                         <div class="instagram_row">
                             <div class="instagram_footer">
                                 <img src="images/instagram1.png" alt="image instagram"/>
@@ -188,8 +192,12 @@
                             Subscribe our newsletter and never miss out
                             our exclusive offers!
                         </h4><br>
-
-                        <form  >
+                        <div class="thank-you-hide">
+                            <h3>
+                                Thank you for subscription !
+                            </h3>
+                        </div>
+                        <form  role="form" class="form-subscription">    
                             <div class="form-line">
                                 <label>name</label>
                                 <label class="form-space">|</label>
@@ -245,14 +253,14 @@
                         </li>
                         <li>|</li>
                         <li>
-                            <a href="#">pbt@propcom.co.uk</a>
+                            <a href="mailto:pbt@propcom.co.uk">pbt@propcom.co.uk</a>
                         </li>
                         <li>|</li>
                         <li>01788 566270</li>
                         <li>|</li>
                         <li>
                             <a href="#"><i class="fa fa-facebook fa-fw"></i></a>
-                            <a href="#"><i class="fa fa-twitter fa-fw"></i></a>
+                            <a href="https://twitter.com/intent/follow?screen_name=@Mike_test_dev"><img src="" /><i class="fa fa-twitter fa-fw"></i></a> 
                             <a href="#"><i class="fa fa-instagram fa-fw"></i></a>
                         </li>
                     </ul>
@@ -265,6 +273,8 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.3/moment.min.js"></script>
+    <script src="js/twitterFetcher.js"></script> 
     <script src="js/MainScript.js"></script>
 </body>
 </html>

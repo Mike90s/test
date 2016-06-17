@@ -5,3 +5,4 @@ FRONT-END BUILD TEST
 2. The carousel is the only place where I use Bootstrap.
 3. The only place where I use other code than mine was for the carousel.
 4. I usualy use Bootstrap, doing all from scratch was exciting and interesting.
+5. For twiter API, I use https://github.com/jasonmayes/Twitter-Post-Fetcher
